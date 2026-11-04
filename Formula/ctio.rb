@@ -1,24 +1,24 @@
 class Ctio < Formula
   desc "Composable CLI for the Conversion Tools API"
   homepage "https://github.com/conversiontools/ctio"
-  version "0.5.3"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/conversiontools/ctio/releases/download/v0.5.3/ctio-darwin-arm64"
-      sha256 "205651fe7b37d2b2b8c7ca1a8e44ad92de362b3902f19d3fa4aa8bccd5621e32"
+      url "https://github.com/conversiontools/ctio/releases/download/v0.6.0/ctio-darwin-arm64"
+      sha256 "a40e2ca2c3935388e1c6d321af061c2137fe14cff1a40b6db43b56e662568bac"
     end
     on_intel do
-      url "https://github.com/conversiontools/ctio/releases/download/v0.5.3/ctio-darwin-x64"
-      sha256 "3f493ece35d4998ff0e3d607dc2a87ecf9fdf0f25a640cd33f6885dac0e6727c"
+      url "https://github.com/conversiontools/ctio/releases/download/v0.6.0/ctio-darwin-x64"
+      sha256 "d636f94031dd2079aace991c0ff743572d612ace76a9d5cfc381557766e5d8ad"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/conversiontools/ctio/releases/download/v0.5.3/ctio-linux-x64"
-      sha256 "bc6f2412e796d36c13443571e876d20742dcd541b15b35211a92e4d06f7a2508"
+      url "https://github.com/conversiontools/ctio/releases/download/v0.6.0/ctio-linux-x64"
+      sha256 "cd6c09889f5069afa5cc0e10f3693435268139a024a98c59026d893d199970f7"
     end
   end
 
